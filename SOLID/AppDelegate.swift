@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SOLID-Example
+//  SOLID
 //
 //  Created by Gustavo Rocha on 09/05/21.
 //

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SOLID-Example
+//  SOLID
 //
 //  Created by Gustavo Rocha on 09/05/21.
 //
@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .purple
     }
 
 
