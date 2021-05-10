@@ -8,12 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var buttonProducts: UIButton!
+    @IBOutlet weak var buttonUs: UIButton!
+    
+    @IBAction func buttonProductsAction(_ sender: Any) {
+        showProducts()
+    }
+    
+    @IBAction func buttonUsAction(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .purple
     }
 
-
+    private func showProducts(){
+        
+    }
 }
 
