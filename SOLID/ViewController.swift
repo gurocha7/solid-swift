@@ -22,10 +22,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideNav()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        hideNav()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        showNav()
+    }
+    
+    private func hideNav(){
+        navigationController?.navigationBar.isHidden = true
+    }
+    
+    private func showNav(){
+        navigationController?.navigationBar.isHidden = false
     }
 
     private func showProducts(){
-        
+        let controller = ProductsViewController()
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 }
 
