@@ -15,6 +15,7 @@
 		369305E22648AC6D004AFDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369305E02648AC6D004AFDC3 /* LaunchScreen.storyboard */; };
 		369305F02648B0BD004AFDC3 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */; };
 		369305F12648B0BD004AFDC3 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */; };
+		369305F62648BA70004AFDC3 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369305F52648BA70004AFDC3 /* ProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		369305E32648AC6D004AFDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		369305F52648BA70004AFDC3 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */,
 				369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */,
+				369305F52648BA70004AFDC3 /* ProductsViewModel.swift */,
 			);
 			path = Products;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				369305DA2648AC69004AFDC3 /* ViewController.swift in Sources */,
 				369305D62648AC69004AFDC3 /* AppDelegate.swift in Sources */,
 				369305F02648B0BD004AFDC3 /* ProductsViewController.swift in Sources */,
+				369305F62648BA70004AFDC3 /* ProductsViewModel.swift in Sources */,
 				369305D82648AC69004AFDC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
