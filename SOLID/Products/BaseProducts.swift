@@ -18,3 +18,11 @@ protocol TypeProducts {
     
     func numberOfItems()
 }
+
+protocol PriceProductsMobiles {
+    func hasPromotion()
+}
+
+protocol PriceProducts {
+    func hasDiscount()
+}

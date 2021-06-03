@@ -9,6 +9,7 @@ import Foundation
 
 class ProductsViewModel {
     
+    //Single Responsibility
     private var service: ProductsService = ProductsService()
     
     private let iphoneItems: [String] = ["iPhone SE",

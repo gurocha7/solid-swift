@@ -19,6 +19,9 @@
 		369DDF1F26691DC800EDF940 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF1E26691DC800EDF940 /* ProductsService.swift */; };
 		369DDF2226691F1D00EDF940 /* BaseProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF2126691F1D00EDF940 /* BaseProducts.swift */; };
 		369DDF26266947B700EDF940 /* BaseProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF25266947B700EDF940 /* BaseProductsViewController.swift */; };
+		369DDF2D26694CB700EDF940 /* MacProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF2B26694CB700EDF940 /* MacProductsViewController.swift */; };
+		369DDF2E26694CB700EDF940 /* MacProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369DDF2C26694CB700EDF940 /* MacProductsViewController.xib */; };
+		369DDF3226694D5B00EDF940 /* MacProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF3126694D5B00EDF940 /* MacProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		369DDF1E26691DC800EDF940 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
 		369DDF2126691F1D00EDF940 /* BaseProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProducts.swift; sourceTree = "<group>"; };
 		369DDF25266947B700EDF940 /* BaseProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProductsViewController.swift; sourceTree = "<group>"; };
+		369DDF2B26694CB700EDF940 /* MacProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacProductsViewController.swift; sourceTree = "<group>"; };
+		369DDF2C26694CB700EDF940 /* MacProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MacProductsViewController.xib; sourceTree = "<group>"; };
+		369DDF3126694D5B00EDF940 /* MacProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,11 @@
 		369305EC2648B087004AFDC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				369DDF2A26694CA300EDF940 /* Mac */,
 				369DDF25266947B700EDF940 /* BaseProductsViewController.swift */,
 				369DDF2126691F1D00EDF940 /* BaseProducts.swift */,
-				369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */,
-				369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */,
-				369305F52648BA70004AFDC3 /* ProductsViewModel.swift */,
 				369DDF1E26691DC800EDF940 /* ProductsService.swift */,
+				369DDF2926694C7300EDF940 /* iPhone */,
 			);
 			path = Products;
 			sourceTree = "<group>";
@@ -99,6 +104,26 @@
 				369305DB2648AC69004AFDC3 /* Main.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		369DDF2926694C7300EDF940 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				369305F52648BA70004AFDC3 /* ProductsViewModel.swift */,
+				369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */,
+				369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		369DDF2A26694CA300EDF940 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				369DDF2B26694CB700EDF940 /* MacProductsViewController.swift */,
+				369DDF2C26694CB700EDF940 /* MacProductsViewController.xib */,
+				369DDF3126694D5B00EDF940 /* MacProductsViewModel.swift */,
+			);
+			path = Mac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +185,7 @@
 			files = (
 				369305E22648AC6D004AFDC3 /* LaunchScreen.storyboard in Resources */,
 				369305DF2648AC6D004AFDC3 /* Assets.xcassets in Resources */,
+				369DDF2E26694CB700EDF940 /* MacProductsViewController.xib in Resources */,
 				369305F12648B0BD004AFDC3 /* ProductsViewController.xib in Resources */,
 				369305DD2648AC69004AFDC3 /* Main.storyboard in Resources */,
 			);
@@ -175,10 +201,12 @@
 				369305DA2648AC69004AFDC3 /* ViewController.swift in Sources */,
 				369305D62648AC69004AFDC3 /* AppDelegate.swift in Sources */,
 				369DDF26266947B700EDF940 /* BaseProductsViewController.swift in Sources */,
+				369DDF2D26694CB700EDF940 /* MacProductsViewController.swift in Sources */,
 				369305F02648B0BD004AFDC3 /* ProductsViewController.swift in Sources */,
 				369305F62648BA70004AFDC3 /* ProductsViewModel.swift in Sources */,
 				369DDF2226691F1D00EDF940 /* BaseProducts.swift in Sources */,
 				369305D82648AC69004AFDC3 /* SceneDelegate.swift in Sources */,
+				369DDF3226694D5B00EDF940 /* MacProductsViewModel.swift in Sources */,
 				369DDF1F26691DC800EDF940 /* ProductsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

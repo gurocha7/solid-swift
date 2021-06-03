@@ -7,7 +7,12 @@
 
 import UIKit
 
-class ProductsViewController: BaseProductsViewController, UITableViewDelegate, UITableViewDataSource, TypeProducts {
+class ProductsViewController: BaseProductsViewController,
+                              UITableViewDelegate,
+                              UITableViewDataSource,
+                              TypeProducts,
+                              PriceProductsMobiles{
+    
     var type: TypeAppleProducts?
     
     @IBOutlet weak var tableView: UITableView!
@@ -36,6 +41,10 @@ class ProductsViewController: BaseProductsViewController, UITableViewDelegate, U
     //Open and closed
     func numberOfItems() {
         itemsCount = viewModel.getNumberOfIphoneItems()
+    }
+    
+    func hasPromotion() {
+        //seta a promoção
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
