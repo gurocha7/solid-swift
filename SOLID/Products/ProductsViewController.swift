@@ -7,15 +7,26 @@
 
 import UIKit
 
-class ProductsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ProductsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, TypeProducts {
+    var type: TypeAppleProducts?
+    
     
     @IBOutlet weak var tableView: UITableView!
     
     private let viewModel: ProductsViewModel = ProductsViewModel()
-
+    
+    init(type: TypeAppleProducts = .iphone) {
+        super.init(nibName: nil, bundle: nil)
+        self.type = type
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Products"
+        title = type?.rawValue
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -27,5 +38,4 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
         cell.textLabel?.text = viewModel.getItemAt(index: indexPath.row)
         return cell
     }
-
 }

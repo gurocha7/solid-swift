@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
 
     private func showProducts(){
-        let controller = ProductsViewController()
+        let controller = ProductsViewController(type: .iphone)
         self.navigationController?.pushViewController(controller, animated: true)
     }
 }

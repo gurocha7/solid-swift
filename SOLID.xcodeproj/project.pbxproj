@@ -17,6 +17,7 @@
 		369305F12648B0BD004AFDC3 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */; };
 		369305F62648BA70004AFDC3 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369305F52648BA70004AFDC3 /* ProductsViewModel.swift */; };
 		369DDF1F26691DC800EDF940 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF1E26691DC800EDF940 /* ProductsService.swift */; };
+		369DDF2226691F1D00EDF940 /* BaseProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369DDF2126691F1D00EDF940 /* BaseProducts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
 		369305F52648BA70004AFDC3 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		369DDF1E26691DC800EDF940 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		369DDF2126691F1D00EDF940 /* BaseProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProducts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		369305EC2648B087004AFDC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				369DDF2126691F1D00EDF940 /* BaseProducts.swift */,
 				369305EE2648B0BD004AFDC3 /* ProductsViewController.swift */,
 				369305EF2648B0BD004AFDC3 /* ProductsViewController.xib */,
 				369305F52648BA70004AFDC3 /* ProductsViewModel.swift */,
@@ -170,6 +173,7 @@
 				369305D62648AC69004AFDC3 /* AppDelegate.swift in Sources */,
 				369305F02648B0BD004AFDC3 /* ProductsViewController.swift in Sources */,
 				369305F62648BA70004AFDC3 /* ProductsViewModel.swift in Sources */,
+				369DDF2226691F1D00EDF940 /* BaseProducts.swift in Sources */,
 				369305D82648AC69004AFDC3 /* SceneDelegate.swift in Sources */,
 				369DDF1F26691DC800EDF940 /* ProductsService.swift in Sources */,
 			);
