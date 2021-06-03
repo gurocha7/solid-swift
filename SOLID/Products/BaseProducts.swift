@@ -13,6 +13,8 @@ enum TypeAppleProducts: String {
     case watch = "Apple Watch"
 }
 
+//Open and closed
+
 protocol TypeProducts {
     var type: TypeAppleProducts? {get set}
     

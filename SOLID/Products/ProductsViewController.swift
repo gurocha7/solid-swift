@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProductsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, TypeProducts {
+class ProductsViewController: BaseProductsViewController, UITableViewDelegate, UITableViewDataSource, TypeProducts {
     var type: TypeAppleProducts?
     
     @IBOutlet weak var tableView: UITableView!
@@ -23,7 +23,12 @@ class ProductsViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     private func setupUI() {
+        setupNavBar()
         numberOfItems()
+    }
+    
+    override func setupNavBar() {
+        navigationController?.navigationBar.barTintColor = .yellow
     }
     
     func numberOfItems() {
