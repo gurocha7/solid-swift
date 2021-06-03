@@ -15,4 +15,6 @@ enum TypeAppleProducts: String {
 
 protocol TypeProducts {
     var type: TypeAppleProducts? {get set}
+    
+    func numberOfItems()
 }
