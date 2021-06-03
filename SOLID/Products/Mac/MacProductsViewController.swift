@@ -23,6 +23,7 @@ class MacProductsViewController: BaseProductsViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
         type = .mac
+        title = TypeAppleProducts.mac.rawValue
         setupUI()
     }
     
@@ -33,6 +34,8 @@ class MacProductsViewController: BaseProductsViewController,
     
     override func setupNavBar() {
         navigationController?.navigationBar.barTintColor = .systemBlue
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
     }
     
     func numberOfItems() {

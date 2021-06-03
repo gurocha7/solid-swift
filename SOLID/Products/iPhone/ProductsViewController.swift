@@ -36,7 +36,9 @@ class ProductsViewController: BaseProductsViewController,
     
     //Liskov
     override func setupNavBar() {
+        navigationController?.navigationBar.tintColor = .black
         navigationController?.navigationBar.barTintColor = .yellow
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.black]
     }
     //Open and closed
     func numberOfItems() {

@@ -9,15 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var buttonProducts: UIButton!
-    @IBOutlet weak var buttonUs: UIButton!
+    @IBOutlet weak var buttonIphone: UIButton!
+    @IBOutlet weak var buttonMac: UIButton!
     
-    @IBAction func buttonProductsAction(_ sender: Any) {
-        showProducts()
+    @IBAction func buttonIphoneAction(_ sender: Any) {
+        showIphoneProducts()
     }
     
-    @IBAction func buttonUsAction(_ sender: Any) {
-        
+    @IBAction func buttonMacAction(_ sender: Any) {
+        showMacProducts()
     }
     
     override func viewDidLoad() {
@@ -43,8 +43,13 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.isHidden = false
     }
 
-    private func showProducts(){
+    private func showIphoneProducts(){
         let controller = ProductsViewController()
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    private func showMacProducts(){
+        let controller = MacProductsViewController()
         self.navigationController?.pushViewController(controller, animated: true)
     }
 }

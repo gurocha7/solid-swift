@@ -22,19 +22,19 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0M-qQ-QhJ">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="95"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <state key="normal" title="Products"/>
+                                        <state key="normal" title="iPhone"/>
                                         <connections>
-                                            <action selector="buttonProductsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSC-AS-FHg"/>
+                                            <action selector="buttonIphoneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nV2-R9-lia"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnz-kS-vRy">
                                         <rect key="frame" x="0.0" y="105" width="354" height="95"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
-                                        <state key="normal" title="About us">
+                                        <state key="normal" title="Mac">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="buttonUsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LHM-ws-q9x"/>
+                                            <action selector="buttonMacAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8F-cz-H0R"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -53,8 +53,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ths-GJ-cTg"/>
                     <connections>
-                        <outlet property="buttonProducts" destination="Y0M-qQ-QhJ" id="9o5-8t-OLs"/>
-                        <outlet property="buttonUs" destination="jnz-kS-vRy" id="sII-38-g8l"/>
+                        <outlet property="buttonIphone" destination="Y0M-qQ-QhJ" id="Rje-iO-PVi"/>
+                        <outlet property="buttonMac" destination="jnz-kS-vRy" id="gzP-M7-Xlx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

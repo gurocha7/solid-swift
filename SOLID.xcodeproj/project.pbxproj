@@ -85,10 +85,10 @@
 		369305EC2648B087004AFDC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				369DDF2A26694CA300EDF940 /* Mac */,
 				369DDF25266947B700EDF940 /* BaseProductsViewController.swift */,
 				369DDF2126691F1D00EDF940 /* BaseProducts.swift */,
 				369DDF1E26691DC800EDF940 /* ProductsService.swift */,
+				369DDF2A26694CA300EDF940 /* Mac */,
 				369DDF2926694C7300EDF940 /* iPhone */,
 			);
 			path = Products;
