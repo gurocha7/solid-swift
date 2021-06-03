@@ -29,10 +29,10 @@
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemYellowColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="1su-jO-X53" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5dQ-25-FxV"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1su-jO-X53" secondAttribute="bottom" id="cuk-OW-kfQ"/>
+                <constraint firstAttribute="bottom" secondItem="1su-jO-X53" secondAttribute="bottom" id="cuk-OW-kfQ"/>
                 <constraint firstItem="1su-jO-X53" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="k9c-w7-Ix1"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1su-jO-X53" secondAttribute="trailing" id="qQm-Pn-gst"/>
             </constraints>
@@ -42,9 +42,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

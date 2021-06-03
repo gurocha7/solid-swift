@@ -9,9 +9,9 @@ import Foundation
 
 class ProductsViewModel {
     
-    private let items: [String] = ["Apple Watch SE",
-                                    "Apple Watch series 6",
-                                    "iPhone SE",
+    private var service: ProductsService = ProductsService()
+    
+    private let items: [String] = ["iPhone SE",
                                     "iPhone 11",
                                     "iPhone 11 Pro",
                                     "iPhone 12",
