@@ -9,8 +9,6 @@ import UIKit
 
 class BaseProductsViewController: UIViewController {
     
-    //Liskov
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }

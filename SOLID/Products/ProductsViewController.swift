@@ -12,7 +12,9 @@ class ProductsViewController: BaseProductsViewController, UITableViewDelegate, U
     
     @IBOutlet weak var tableView: UITableView!
     
+    //Single Responsibility
     private let viewModel: ProductsViewModel = ProductsViewModel()
+    
     private var itemsCount: Int = 0
     
     override func viewDidLoad() {
@@ -27,10 +29,11 @@ class ProductsViewController: BaseProductsViewController, UITableViewDelegate, U
         numberOfItems()
     }
     
+    //Liskov
     override func setupNavBar() {
         navigationController?.navigationBar.barTintColor = .yellow
     }
-    
+    //Open and closed
     func numberOfItems() {
         itemsCount = viewModel.getNumberOfIphoneItems()
     }
