@@ -119,9 +119,9 @@
 		369DDF2A26694CA300EDF940 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				369DDF3126694D5B00EDF940 /* MacProductsViewModel.swift */,
 				369DDF2B26694CB700EDF940 /* MacProductsViewController.swift */,
 				369DDF2C26694CB700EDF940 /* MacProductsViewController.xib */,
-				369DDF3126694D5B00EDF940 /* MacProductsViewModel.swift */,
 			);
 			path = Mac;
 			sourceTree = "<group>";

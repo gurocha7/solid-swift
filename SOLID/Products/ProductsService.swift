@@ -8,6 +8,6 @@
 import Foundation
 
 class ProductsService {
-    //utilizar apis abertas
+    
     
 }

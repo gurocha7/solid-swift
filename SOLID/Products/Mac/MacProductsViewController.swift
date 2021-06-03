@@ -43,7 +43,7 @@ class MacProductsViewController: BaseProductsViewController,
     }
     
     func hasDiscount() {
-        //
+        //seta o disconto
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
